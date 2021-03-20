@@ -1,0 +1,58 @@
+html {
+    background-image: url(./imgs/spwp3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-color:aliceblue;
+    font-family: 'Pangolin', cursive;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+body header h1 {
+    text-align: center;
+}
+.principal {
+    box-sizing: border-box;
+    width:30vh;
+    height:50%;
+    margin-top:3rem;
+    text-align: center;
+    padding: 15px;
+    border-radius: 25px;
+    background-image: linear-gradient(to top, rgb(145, 173, 170), rgba(0, 255, 200, 0.7));
+    border: 10px solid rgb(34, 143, 128);
+    transition: all 0.6s ease-in-out;
+ }
+
+.principal:hover{
+    background-color:rgba(0, 255, 200, 0.7);
+}
+
+footer {
+    text-align:center;
+    background: rgba(215, 216, 215, 0.8);
+    width:100%;
+    padding: 5px;
+    text-align: center;
+    position:fixed;
+    bottom:0;        
+}
+
+footer a {
+    text-decoration:tomato solid;
+}
+
+footer a:hover {
+    color: tomato;
+}
